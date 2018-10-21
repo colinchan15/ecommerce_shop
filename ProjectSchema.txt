@@ -1,0 +1,39 @@
+# Shopper
+
+// Many-to-Many with Category
+- Product
+	- Categories
+	- Variations
+
+// Many-to-Many with Product
+- Category
+	- Products
+
+- Order
+	- Order Items
+
+- Order Items
+	- Products
+
+# Models
+
+- Product
+	- Title
+	- Description
+	- Price
+
+- Product Variant
+	- Title
+	- Price
+
+- Category
+	- Title
+
+- Order
+	- First name
+	- Last name
+	- Sub total
+
+- Order Items
+	- Quantity 
+	- Price
