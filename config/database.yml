@@ -23,10 +23,12 @@ default: &default
 
 development:
   <<: *default
+  adapter: postgresql #added this
   host: localhost
   database: ecommerce_store_development
   username: ecommerceshop
   password: ecommerceshop
+  port: 5432 # added this
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
